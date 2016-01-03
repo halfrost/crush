@@ -1352,7 +1352,14 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 @media only screen and (max-width: 900px) {
-
+.loop-img {
+    display: none;
+    height: auto;
+  }
+.loop-img img {
+  display: none;
+  height: auto;
+}
     .main-nav {
         padding: 15px;
     }
@@ -1477,6 +1484,14 @@ body:not(.post-template) .post-title {
 
 @media only screen and (max-width: 500px) {
 
+  .loop-img {
+    display: none;
+    height: auto;
+  }
+.loop-img img {
+  display: none;
+  height: auto;
+}
     .main-header {
         margin-bottom: 15px;
         height: 40%;
@@ -1731,9 +1746,13 @@ body:not(.post-template) .post-title {
         display: none;
     }
     /* Additional CSS */
+    .loop-img  img {
+      max-width: 710px;
+      height: auto;
+    }
     .loop-img {
       display: block;
-      width: auto;
+      width: 710px;
       height: auto;
     }
 }
